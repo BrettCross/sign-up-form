@@ -7,6 +7,7 @@
 .container {
   display: flex;
   height: 100vh;
+  
 }
 
 .img-div {
@@ -17,4 +18,10 @@
 .form-div {
   background-color: #eee;
   width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
 }
