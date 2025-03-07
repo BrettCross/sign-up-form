@@ -4,3 +4,17 @@
   padding: 0;
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.img-div {
+  background-color: #aaa;
+  width: 30%;
+}
+
+.form-div {
+  background-color: #eee;
+  width: 70%;
+}
