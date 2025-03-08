@@ -7,21 +7,43 @@
 .container {
   display: flex;
   height: 100vh;
-  
 }
 
 .img-div {
-  background-color: #aaa;
+  background-color: #ccc;
   width: 30%;
 }
 
-.form-div {
-  background-color: #eee;
-  width: 70%;
+form {
+  background-color: #fff;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  padding: 4rem;
 }
 
-form {
+h1 {
+  margin-bottom: 3rem;
+}
+
+.fields-container {
   display: flex;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+input {
+  margin-top: 1rem;
+  margin-right: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+button {
+  margin-top: 2rem;
 }
