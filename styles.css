@@ -1,3 +1,8 @@
+:root {
+  --brand-color: #327ba8;
+  --brand-color-hover: #275f82;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,18 +50,32 @@ input {
 }
 
 input:focus {
-  outline: 2px solid #327ba8;
+  outline: 2px solid var(--brand-color);
 }
 
 button {
   margin-top: 3rem;
   padding: 0.5rem 2rem;
   font-size: 1rem;
-  border: none;
-  background-color: #327ba8;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
   color: #fff;
   letter-spacing: 0.03rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+button:hover {
+  background-color: var(--brand-color-hover);
+  transition-duration: 0.12s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+button:active {
+  /* border: none; */
+  background-color: var(--brand-color);
+}
+
 
 a {
   text-decoration: none;
