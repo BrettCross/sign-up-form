@@ -49,6 +49,14 @@ input {
   padding: 0 0.5rem;
 }
 
+input:user-invalid {
+  outline: 2px solid red;
+}
+
+input:user-valid {
+  outline: 2px solid green;
+}
+
 input:focus {
   outline: 2px solid var(--brand-color);
 }
