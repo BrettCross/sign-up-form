@@ -10,40 +10,42 @@
 <body>
   <main>
     <div class="container">
-      <div class="img-div"></div>
+      <div class="img-div">
+        <img src="/assets/images/background.webp" alt="northern lights at night" width="100%" height="100%">
+      </div>
       <form action="" method="get">
-        <div>
+        <div class="form-header">
           <h1>Get Started</h1>
         </div>
 
         <div class="fields-container">
           <div class="left">
-            <div>
+            <div class="input-container">
               <p><label for="first-name">first name</label></p>
               <input type="text" id="first-name" name="user-first-name" minlength="2" maxlength="20" required>
             </div>
-            <div>
+            <div class="input-container">
               <p><label for="email">email</label></p>
-              <input type="email" id="email" name="user-email" required>
+              <input type="email" id="email" name="user-email" placeholder="you@example.com" required>
             </div>
-            <div>
+            <div class="input-container">
               <p><label for="password">password</label></p>
               <input type="password" id="password" name="user-password" minlength="8" required>
             </div>
           </div>
           
           <div class="right">
-            <div>
+            <div class="input-container">
               <p><label for="last-name">last name</label></p>
               <input type="text" id="last-name" name="user-last-name" minlength="2" maxlength="20" required>
             </div>
-            <div>
+            <div class="input-container">
               <p><label for="phone-number">phone number</label></p>
               <input type="tel" id="phone-number" name="user-phone-number" pattern="^[0-9]{10}$" minlength="10" maxlength="10" required>
             </div>
-            <div>
+            <div class="input-container">
               <p><label for="password-confirm">confirm password</label></p>
-              <input type="password-confirm" id="password-confirm" name="user-password-confirm" minlength="8" required>
+              <input type="password" id="password-confirm" name="user-password-confirm" minlength="8" required>
             </div>
           </div>
         </div>
