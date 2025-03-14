@@ -1,6 +1,8 @@
 :root {
-  --brand-color: #327ba8;
-  --brand-color-hover: #275f82;
+  /* --brand-color: #327ba8;
+  --brand-color-hover: #275f82; */
+  --brand-color: #0a9782;
+  --brand-color-hover: #26a08e;
 }
 
 * {
@@ -24,29 +26,42 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
-  padding: 4rem;
+  width: 60%;
+  padding: 5rem;
 }
 
 h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.form-header {
+  font-size: 1.5rem;
 }
 
 .fields-container {
   display: flex;
 }
 
+.left {
+  margin-right: 10rem;
+}
+
 p {
   margin-top: 1rem;
 }
 
+.input-container {
+  margin-top: 3rem;
+}
+
 input {
   margin-top: 0.5rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   line-height: 1.5rem;
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
+  width: 15rem;
 }
 
 input:user-invalid {
@@ -62,9 +77,9 @@ input:focus {
 }
 
 button {
-  margin-top: 3rem;
-  padding: 0.5rem 2rem;
-  font-size: 1rem;
+  margin-top: 4rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.125rem;
   border: 1px solid var(--brand-color);
   background-color: var(--brand-color);
   color: #fff;
@@ -87,4 +102,5 @@ button:active {
 
 a {
   text-decoration: none;
+  color: var(--brand-color)
 }
