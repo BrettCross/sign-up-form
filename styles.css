@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap');
 
 :root {
-  /* --brand-color: #327ba8;
-  --brand-color-hover: #275f82; */
   --brand-color: #0a9782;
   --brand-color-hover: #26a08e;
 }
@@ -39,7 +37,6 @@ body {
   align-items: center;
   justify-content: center;
   background: hsla(199, 27%, 14%, 0.5);
-  /* background-color: #1a272d; */
   padding: 2rem;
   margin-bottom: 10rem;
   color: #fff;
@@ -53,10 +50,6 @@ form {
   justify-content: center;
   width: 60%;
   padding: 5rem;
-}
-
-h1 {
-  /* margin-bottom: 1rem; */
 }
 
 .form-header {
@@ -120,7 +113,6 @@ button:hover {
 }
 
 button:active {
-  /* border: none; */
   background-color: var(--brand-color);
 }
 
