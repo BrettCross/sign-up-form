@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap');
+
 :root {
   /* --brand-color: #327ba8;
   --brand-color-hover: #275f82; */
@@ -11,6 +13,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Poppins", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 .container {
   display: flex;
   height: 100vh;
@@ -18,6 +24,25 @@
 
 .img-div {
   background-color: #ccc;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsla(199, 27%, 14%, 0.5);
+  /* background-color: #1a272d; */
+  padding: 2rem;
+  margin-bottom: 10rem;
+  color: #fff;
   width: 40%;
 }
 
@@ -31,7 +56,7 @@ form {
 }
 
 h1 {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .form-header {
